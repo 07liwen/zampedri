@@ -1,0 +1,297 @@
+:root{
+    /*COLORES*/
+    --fondo: #030303;
+    --nav_card: #242425;
+    --texto: #F4F5F7;
+    --marca: #E63946;
+    --marca2: #0d5180;
+}
+:root.dark{
+    --fondo: #F4F5F7;
+    --nav_card: #242425;
+    --texto: #030303;
+}
+body{
+    background-color: var(--fondo) !important;
+}
+
+
+/*CSS GENERAL*/
+.subtitulos{
+    background-color: var(--marca);
+    text-align: center;
+    font-family: "Russo One";
+    color:#F4F5F7;
+    letter-spacing: 4px;
+    width: 70%;
+    margin: 15px 15% 15px 15%;
+    clip-path: polygon(8% 0%, 100% 0%, 92% 100%, 0% 100%); /*ESTO SIRVE PARA HACER EL EFECTO DE "CORRIDO" QUE TIENE LA ETIQUETA*/
+}
+.parrafo{
+    font-family: "Chakra Petch", Arial;
+    color: var(--texto);
+    font-size: 18px;
+    font-style: italic;
+}
+.parrafo2{
+    font-family: "Chakra Petch", Arial;
+    color:#F4F5F7;
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+
+/*NAVBAR*/
+#barra{
+    background-color: var(--nav_card) !important;
+    font-family: "Russo One", Arial;
+}
+.nav-link{
+    color: #F4F5F7 !important;
+}
+#modo{
+    background-color: #F4F5F7;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+/*SECCIÓN PRINCIPAL*/
+#grid_principal{
+    margin-top: 50px;
+}
+#titulo_principal{
+    font-family: "Rubik Dirt", Arial;
+    font-size: 70px;
+    font-weight: 100;
+    text-align: center;
+    color: var(--texto);
+    letter-spacing: 25px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+#subtitulo_principal{
+    font-family: "Russo One", Arial;
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+    color: var(--marca);
+    letter-spacing: 10px;
+    margin-top: 0;
+}
+#span_principal{
+    color: var(--texto);
+}
+#botones_principales_div{
+    text-align: center;
+}
+.botones{
+    color:#F4F5F7;
+    font-family: "Russo One";
+    border: none;
+    border-radius: 5px;
+    background-color: var(--marca);
+    padding: 5px;
+    margin: 10px;
+}
+.texto_botones{
+    text-decoration: none;
+    color: #F4F5F7;
+}
+
+#imagen_principal{
+    width: 200px;
+    height: auto;
+    margin: auto;
+}
+
+
+
+/*SECCIÓN DE SERVICIOS*/
+.servicio1{
+    font-family: "Russo One", Arial;
+    color:#F4F5F7;
+    text-align: center;
+    background-color: var(--marca);
+    letter-spacing: 3px;
+    padding: 5px;
+    border-radius: 5px;
+    width: fit-content;
+    margin: auto;
+    -webkit-text-stroke: 2px #b60f1b;
+}
+.servicio2{
+    font-family: "Russo One", Arial;
+    color:#F4F5F7;
+    text-align: center;
+    background-color: var(--marca2);
+    letter-spacing: 3px;
+    padding: 5px;
+    border-radius: 5px;
+    width: fit-content;
+    margin: auto;
+    -webkit-text-stroke: 2px #0a314b;
+}
+.item1{
+    font-family: "Chakra Petch", Arial;
+    color:#F4F5F7;
+    padding: 5px;
+    margin: 7px;
+    background-color: #b60f1b;
+    width: fit-content;
+    border-radius: 5px;
+    list-style: none;
+    font-size: 17px;
+}
+.item2{
+    font-family: "Chakra Petch", Arial;
+    color:#F4F5F7;
+    padding: 5px;
+    margin: 7px;
+    background-color: #0a314b;
+    width: fit-content;
+    border-radius: 5px;
+    list-style: none;
+    font-size: 17px;
+}
+.imagen_servicios{
+    width: 100%;
+    height: auto;
+    margin: 20px 0 20px 0;
+    border-radius: 5px;
+}
+.lista_servicios{
+    margin: 15px 10px 10px 10px;
+}
+.seccion_servicios{
+    margin: 10px 0px 10px 0px;
+}
+
+#mapa{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+}
+/*CONTACTO*/
+
+#formulario{
+    background-color: #242425;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+#contacto{
+    background-color: var(--nav_card);
+    padding: 5px;
+    text-align: center;
+}
+
+.labels{
+    font-family: "Chakra Petch", Arial;
+    color: #F4F5F7;
+    font-size: 18px;
+    font-weight: bold;
+}
+.inputs{
+    display: flex;
+    width: 80%;
+    border: 0;
+    border-radius: 10px;
+    margin: 10px auto 10px auto;
+    background-color:#F4F5F7 ;
+    padding: 5px;
+    font-family: "Chakra Petch", Arial;
+}
+.form_lista{
+    font-family: "Chakra Petch", Arial;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 30%;
+    margin: 10px 0 10px 0;
+}
+#btn-submit{
+    background-color: #b60f1b;
+    font-family: "Russo One", Arial;
+    color: #F4F5F7;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px;
+}
+#boton_enviar{
+    margin: 20px;
+}
+.img_footer{
+    width: 60px;
+    height: auto;
+    margin: 0 30px 0 30px;
+}
+.link{
+    text-decoration: none;
+}
+
+
+
+
+/*GRID*/
+#grid_principal{
+    display: grid;
+    grid-template-columns: 0.7fr 2.3fr;
+}
+#grid_mant{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+}
+#grid_motor{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+}
+#grid_frenos{
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+}
+#grid_pers{
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+}
+@media (max-width: 968px){
+    #grid_principal,
+    #grid_mant,
+    #grid_motor,
+    #grid_frenos,
+    #grid_pers {
+        grid-template-columns: 1fr;
+    }
+
+    #texto_principal{
+        order:1;
+    }
+    #imagen_principal{
+        display: none;
+    }
+    #mant{
+        order: 1;
+    }
+    #img_mant{
+        order:2;
+    }
+
+    #motor{
+        order: 1;
+    }
+    #img_motor{
+        order:2;
+    }
+
+    #frenos{
+        order: 1;
+    }
+    #img_frenos{
+        order: 2;
+    }
+    }

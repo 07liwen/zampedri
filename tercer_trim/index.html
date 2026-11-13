@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZAMPEDRI</title>
+    <link rel="icon" type="image/png" href="assets/img/logo_motomecanica.webp">
+    <!--FUENTES: RUBIK DIRT PARA EL TÍTULO, CHAKRA PETCH PARA INFORMACIÓN Y RUSSO ONE PARA TEXTO MÁS RELEVANTE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Rubik+Dirt&family=Russo+One&display=swap" rel="stylesheet">
+    
+    <!--LINK A LA HOJA DE ESTILOS-->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--LINK A BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+<!--BARRA DE NAVEGACIÓN-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="barra">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <img src="./assets/img/logo_motomecanica.webp" alt="" width="40" height="40">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active item_navbar" aria-current="page" href="#grid_principal">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  item_navbar" aria-current="page" href="#servicios">SERVICIOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link item_navbar" href="productos.html">PRODUCTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link item_navbar" href="#contacto">CONTACTO Y REDES</a>
+                    </li>
+                </ul>
+            </div>
+            <button id="modo">MODO CLARO/OSCURO</button>
+        </div>
+    </nav>
+
+<!--SECCIÓN PRINCIPAL DE LA PÁGINA-->
+<section>
+    <div class="container" id="grid_principal">
+    <img src="assets/img/logo_motomecanica.webp" alt="imagen del logo de la motomecánica Zampedri." id="imagen_principal">
+        <div class="separacion" id="texto_principal">
+            <h1 id="titulo_principal">ZAMPEDRI</h1>
+            <h2 id="subtitulo_principal">MOTO<span id="span_principal">MECANICA</span></h2>
+            <div id="botones_principales_div">
+                <button class="botones"><a href="#turnos" class="texto_botones">AGENDAR TURNO</a></button>
+                <button class="botones"> <a href="productos.html" class="texto_botones">MIRAR PRODUCTOS</a></button>
+            </div>
+        </div>
+    </div>
+        <div class="container">
+                <div id="carouselEndsLoop" class="carousel slide" data-bs-ends="loop">
+                    <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselEndsLoop" data-bs-slide="prev" style="--bs-carousel-control-icon-width: 1rem;">
+                        <span class="carousel-icon-prev" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselEndsLoop"        data-bs-slide="next" style="--bs-carousel-control-icon-width: 1rem;">
+                        <span class="carousel-icon-next" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    </div>
+                    <div class="carousel-inner rounded-5">
+                    <div class="carousel-item active">
+                        <img src="assets/img/carrusel1.webp" class="d-block w-100 rounded-5" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="..." class="d-block w-100 rounded-5" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="..." class="d-block w-100 rounded-5" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</section>
+
+
+<section>
+    <div class="container">
+        <h2 class="subtitulos" id="servicios">SERVICIOS</h2>
+        <p class="parrafo">Atendemos marcas como: Zanella, Gilera, Honda, Yamaha, Rouser, Guerrero, Cerro, y más...</p>
+        <p class="parrafo">Entre nuestros servicios encontrarás:</p>
+
+        <div class="seccion_servicios" id="grid_mant">
+            <div id="img_mant">
+                <img class="imagen_servicios" src="assets/img/mantenimiento.webp" alt="Imagen de renferencia de mantenimiento.">
+            </div>
+            <div class="separacion" id="mant">
+                <h3 class="servicio1" >MANTENIMIENTO</h3>
+                <ul class="lista_servicios">
+                    <li class="item1">Batería: Verificación y recarga.</li>
+                    <li class="item1">Chequeo general y reajustes.</li>
+                    <li class="item1">Reemplazo de aceite y filtro.</li>
+                    <li class="item1">Filtro de aire: Inspección y limpieza.</li>
+                </ul>
+            </div>
+        </div>
+            
+        
+
+        <div class="seccion_servicios" id="grid_motor">
+            <div id="img_motor">
+                <img class="imagen_servicios" src="assets/img/motor_rendimiento.webp" alt="Imagen de referencia de motor y rendimiento.">
+            </div>
+            <div class="separacion" id="motor">
+            <h3 class="servicio2">MOTOR Y RENDIMIENTO</h3>
+                <ul class="lista_servicios">
+                    <li class="item2">Motor: Rectificación completa, potenciación y optimización</li>
+                    <li class="item2">Carburador: Limpieza profunda y afinación</li>
+                    <li class="item2">Calibración de válvulas y reemplazo de pastillas</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="seccion_servicios" id="grid_frenos">
+            <div class="separacion" id="frenos">
+                <h3 class="servicio1">FRENOS, CHASIS Y TRANSMISION</h3>
+                <ul class="lista_servicios">
+                    <li class="item1">Inspección de frenos y reemplazo de pastillas.</li>
+                    <li class="item1">Transmisión, horquilla y dirección.</li>
+                </ul>
+            </div>
+            <div id="img_frenos">
+                <img class="imagen_servicios"  src="assets/img/frenos_chasis_transmision.webp" alt="Imagen de referencia de frenos, chasis y transmisión.">
+            </div>
+        </div>
+
+        <div class="seccion_servicios" id="grid_pers">
+            <div class="separacion">
+                <h3 class="servicio2">PERSONALIZACIÓN</h3>
+                <ul class="lista_servicios">
+                    <li class="item2">Modificaciones e instalación de accesorios.</li>
+                </ul>
+            </div>
+            <div>
+            <img class="imagen_servicios" src="assets/img/personalizacion.webp" alt="Imagen de referencia de personalización.">
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+
+
+    <div class="container">
+        <div id="formulario">
+            <form action="#" method="POST">
+            <h2 id="turnos" class="subtitulos">AGENDAR TURNO</h2>
+
+            <div class="form-group">
+                <label class="labels" for="nombre">NOMBRE Y APELLIDO</label>
+                <input placeholder="Ingrese su nombre y apellido..." class="inputs" type="text" name="nombre" id="nombre" required oninput="this.setCustomValidity('')" oninvalid="this.setCustomValidity('Por favor rellene este campo.')">
+            </div>
+
+            <div class="form-group">
+                <label class="labels" for="email">CORREO ELECTRÓNICO</label>
+                <input placeholder="Ingrese su correo electrónico..." class="inputs" type="email" name="email" id="email" required oninput="this.setCustomValidity('')" oninvalid="this.setCustomValidity('Por favor rellene este campo con su email.')">
+            </div>
+
+            <div class="form-group">
+                <label class="labels" for="fecha">FECHA</label>
+                <input class="inputs" type="date" name="fecha" id="fecha" required oninput="this.setCustomValidity('')" oninvalid="this.setCustomValidity('Por favor elija una fecha.')">
+            </div>
+
+            <div class="form-group">
+            <label class="labels" for="hora">HORARIO</label>
+            </div>
+                <select class="form_lista" name="hora" id="hora" required oninput="this.setCustomValidity('')" oninvalid="this.setCustomValidity('Por favor elija un turno.')">
+                    <option value="8:00">8:00 - 9:00</option>
+                    <option value="9:00">9:00 - 10:00</option>
+                    <option value="10:00">10:00 - 11:00</option>
+                    <option value="11:00">11:00 - 12:00</option>
+                    <option value="14:00">14:00 - 15:00</option>
+                    <option value="15:00">15:00 - 16:00</option>
+                    <option value="16:00">16:00 - 17:00</option>
+                    <option value="17:00">17:00 - 18:00</option>
+                </select>
+
+                <div class="form-group">
+            <label class="labels" for="servicio">TIPO DE SERVICIO</label>
+            </div>
+                <select class="form_lista" name="servicio" id="servicio" required oninput="this.setCustomValidity('')" oninvalid="this.setCustomValidity('Por favor elija un servicio.')">
+                    <option value="8:00">MANTENIMIENTO</option>
+                    <option value="9:00">MOTOR Y RENDIMIENTO</option>
+                    <option value="10:00">FRENOS, CHASIS O TRANSMISIÓN</option>
+                    <option value="11:00">PERSONALIZACIÓN</option>
+                </select>
+            
+            <div id="boton_enviar">
+                <input type="submit" id="btn-submit" value="ENVIAR">
+            </div>
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3414.074974655247!2d-58.193668499999994!3d-31.163194599999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ad8e2b45e98b87%3A0x9f8b3b138d94f0bf!2sAv.%20Francisco%20Ram%C3%ADrez%202158%2C%20E3212%20Los%20Charruas%2C%20Entre%20R%C3%ADos!5e0!3m2!1ses-419!2sar!4v1793049920041!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+    <footer id="contacto">
+        <p class="parrafo2">Dirección: Av Francisco ramirez 2158 – Los Charruas | Carlos Zampedri | </p>
+        <p class="parrafo2">NUESTRAS REDES SOCIALES</p>
+        <a class="link" href="https://www.facebook.com/carlos.zampedri">
+            <img class="img_footer" src="assets/img/logofacebook.webp">
+        </a>
+        <a class="link" href="https://www.instagram.com/zampedri">
+            <img class="img_footer" src="assets/img/logoinstagram.webp">
+        </a>
+        <a class="link" href="https://www.tiktok.com/@carloszampedri">
+            <img class="img_footer" src="assets/img/logotiktok.webp">
+        </a>
+        
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="js/java.js"></script>
+</body>
+
+</html>
