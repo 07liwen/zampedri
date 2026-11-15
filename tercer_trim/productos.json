@@ -1,0 +1,62 @@
+[
+{
+    "nombre": "Aceite Castrol Actevo 4T 20W-50",
+    "imagen": "assets/img/",
+    "precio": "18.000"
+},
+{
+    "nombre": "Aceite Motul 5100 4T. Semisintético de 1 litro",
+    "imagen": "assets/img/",
+    "precio": "35.000"
+},
+{
+    "nombre": "Aceite para motor 2 tiempos Yamalube.",
+    "imagen": "assets/img/",
+    "precio": "15.000"
+},
+{
+    "nombre": "Bujía NGK C7HSA.",
+    "imagen": "assets/img/",
+    "precio": "8.000"
+},
+{
+    "nombre": "Filtro de aceite para moto.",
+    "imagen": "assets/img/",
+    "precio": "14.000"
+},
+{
+    "nombre": "Lubricante para cadena de moto",
+    "imagen": "assets/img/",
+    "precio": "25.000"
+},
+{
+    "nombre": "Grasa lubricante para cadena Penetrit.",
+    "imagen": "assets/img/",
+    "precio": "10.000"
+},
+{
+    "nombre": "Limpiador de cadena para moto.",
+    "imagen": "assets/img/",
+    "precio": "25.000"
+},
+{
+    "nombre": "Líquido de frenos DOT 4",
+    "imagen": "assets/img/",
+    "precio": "18.000"
+},
+{
+    "nombre": "Pastillas de freno para moto.",
+    "imagen": "assets/img/",
+    "precio": "30.000"
+},
+{
+    "nombre": "Filtro de nafta universal",
+    "imagen": "assets/img/",
+    "precio": "5.000"
+},
+{
+    "nombre": "Cámara de aire para moto rodado 18.",
+    "imagen": "assets/img/",
+    "precio": "13.000"
+}
+]
