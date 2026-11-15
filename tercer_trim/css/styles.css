@@ -110,6 +110,10 @@ body{
 
 
 /*SECCIÓN DE SERVICIOS*/
+#imagen_marcas{
+    width: 100%;
+    height: auto;
+}
 .servicio1{
     font-family: "Russo One", Arial;
     color:#F4F5F7;
@@ -178,7 +182,7 @@ body{
 /*CONTACTO*/
 
 #formulario{
-    background-color: #242425;
+    background-color: #161616;
     border-radius: 20px;
     padding: 10px;
     text-align: center;
@@ -259,13 +263,22 @@ body{
     display: grid;
     grid-template-columns: 2fr 1.5fr;
 }
-@media (max-width: 968px){
+#grid_tarjetas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+@media (max-width: 995px){
     #grid_principal,
     #grid_mant,
     #grid_motor,
     #grid_frenos,
     #grid_pers {
         grid-template-columns: 1fr;
+    }
+    #grid_tarjetas{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
     }
 
     #texto_principal{
@@ -294,4 +307,43 @@ body{
     #img_frenos{
         order: 2;
     }
+    
     }
+
+    
+
+
+
+/*SECCIÓN DE PRODUCTOS*/
+.tarjeta{
+    background-color: #242425;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 20px 10px 20px;
+    width: 100%;
+}
+.producto{
+    background-color:#030303;
+    color: #F4F5F7;
+    font-family: "Chakra Petch";
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 17px;
+    width: fit-content;
+}
+.imagen_producto{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.precio{
+    background-color: #F4F5F7;
+    color: #030303;
+    font-family: "Chakra Petch";
+    font-weight: bold;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
